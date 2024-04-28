@@ -43,7 +43,7 @@ const BuyNowButton = () => {
         onMouseEnter={handleOpen}
         onMouseLeave={handleClose}
         ref={(e: any) => setReferenceElement(e)}
-        href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
+        href='#'
         sx={{
           backgroundColor: '#ff3e1d',
           boxShadow: '0 1px 20px 1px #ff3e1d',
@@ -53,7 +53,7 @@ const BuyNowButton = () => {
           }
         }}
       >
-        Upgrade To Pro
+        Soporte
       </Button>
       <Fade in={open} timeout={700}>
         <Box
@@ -68,37 +68,36 @@ const BuyNowButton = () => {
             <a
               target='_blank'
               rel='noreferrer'
-              href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
+              href='#'
             >
-              <img width='100%' alt='materio-pro-banner' src='/images/misc/materio-pro-banner.png' />
+              <img width='100%' alt='materio-pro-banner' src='/images/misc/soporte-whats-banner.png' />
             </a>
             <CardContent>
               <Typography sx={{ mb: 4 }} variant='h6'>
-                Materio - React Admin Template
+                ShowBox
               </Typography>
               <Typography sx={{ mb: 4 }} variant='body2'>
-                Materio Admin is the most developer friendly & highly customizable Admin Dashboard Template based on MUI
-                and NextJS.
+                Comunica con nosotros via whatsapp para soporte
               </Typography>
               <Typography sx={{ mb: 4 }} variant='body2'>
-                Click on below buttons to explore PRO version.
+                Click en los botones
               </Typography>
               <Button
                 component='a'
                 sx={{ mr: 4 }}
                 target='_blank'
                 variant='contained'
-                href='https://demos.themeselection.com/materio-mui-react-nextjs-admin-template/landing/'
+                href=''
               >
-                Demo
+                Whatsapp
               </Button>
               <Button
                 component='a'
                 target='_blank'
                 variant='outlined'
-                href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
+                href=''
               >
-                Download
+                GitHub
               </Button>
             </CardContent>
           </Paper>

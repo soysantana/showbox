@@ -44,9 +44,9 @@ const UserLayout = ({ children }: Props) => {
         <a
           target='_blank'
           rel='noreferrer'
-          href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
+          href=''
         >
-          <img width={230} alt='upgrade to premium' src={`/images/misc/upgrade-banner-${settings.mode}.png`} />
+          <img width={230} alt='soporte via whatsapp' src={`/images/misc/${settings.mode}.png`} />
         </a>
       </Box>
     )
