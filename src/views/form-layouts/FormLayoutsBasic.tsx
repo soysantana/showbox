@@ -64,7 +64,7 @@ const FormLayoutsBasic = () => {
         <form onSubmit={e => e.preventDefault()}>
           <Grid container spacing={5}>
             <Grid item xs={12}>
-              <TextField fullWidth label='Name' placeholder='Leonard Carter' />
+              <TextField fullWidth label='Name' placeholder='Enter your name' />
             </Grid>
             <Grid item xs={12}>
               <TextField
